@@ -13,8 +13,16 @@ body{
 }
 #card{
     border: 1px solid red;
-    height: 450px;
+    height: 520px;
     width: 300px;
     border-radius: 20px;
     background-color: #15273F;
+    padding: 20px;
+
+}
+#image{
+    width: 260px;
+    height: 260px;
+    border: 1px solid red;
+    border-radius: 5px;
 }
