@@ -11,18 +11,15 @@ body{
 }
 #card{
     margin-top: 100px;
-    border: 1px solid red;
     height: 520px;
     width: 300px;
     border-radius: 20px;
     background-color: #15273F;
     padding: 20px;
-
 }
 #image{
     width: 260px;
     height: 260px;
-    border: 1px solid red;
     border-radius: 5px;
     overflow: hidden;
 }
@@ -43,15 +40,18 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid red;
     width: 100%;
     height: 30px;
 }
 #price{
     color: #00FFF8;
+    display: flex;
+    align-items: center;
 }
 #date{
     color: #8BACD9;
+    display: flex;
+    align-items: center;
 }
 hr{
     margin-top: 20px;
@@ -61,7 +61,6 @@ hr{
 #creator{
     width: 100%;
     height: 30px;
-    border: 1px solid red;
 }
 #profilpicture{
     height: 30px;
@@ -69,7 +68,6 @@ hr{
     border-radius: 30px;
     border: 2px solid white;
     overflow: hidden;
-
 }
 #profilpicture img{
     width: 100%;
@@ -80,13 +78,11 @@ hr{
     display: flex;
     flex-direction: row;
     align-items: center;
-
 }
 #created{
     color: #8BACD9;
     font-size: 0.9em;
     padding-inline: 10px;
-
 }
 #name{
     color: white;
