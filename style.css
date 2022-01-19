@@ -76,3 +76,19 @@ hr{
     height: 100%;
     object-fit: cover;
 }
+#creator{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+#created{
+    color: #8BACD9;
+    font-size: 0.9em;
+    padding-inline: 10px;
+
+}
+#name{
+    color: white;
+    font-size: 0.9em;
+}
