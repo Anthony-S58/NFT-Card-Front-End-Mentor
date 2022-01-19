@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
     top: 0;
     left: 0;
     box-sizing: border-box;
-}
+    font-family: 'Roboto', sans-serif;}
 body{
     background-color: #0D1A2D;
     display: flex;
@@ -16,6 +17,7 @@ body{
     border-radius: 20px;
     background-color: #15273F;
     padding: 20px;
+    box-shadow: 3px 2px 8px 2px rgba(0, 0, 0, 0.5);
 }
 #image{
     width: 260px;
