@@ -36,16 +36,20 @@ body{
     font-size: 0.6em;
 }
 #description{
-    color: grey;
+    color: #8BACD9;
 }
 #priceanddate{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
     border: 1px solid red;
     width: 100%;
     height: 25px;
 }
 #price{
     color: #00FFF8;
+}
+#date{
+    color: #8BACD9;
 }
